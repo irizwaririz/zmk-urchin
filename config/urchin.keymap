@@ -78,8 +78,8 @@
 			label = "Sym.";
 			bindings = <
 			&kp N1 &kp N2 &kp N3 &kp N4 &kp N5		                                    &kp N6 &kp N7 &kp N8 &kp N9 &kp N0
-			&kp LESS &kp USD &kp LPAR &kp LBRC &kp LBKT  &kp EQL &kp QUES &kp SQUOT &kp MINUS &kp AST
-			&kp GREAT &kp PERC &kp RPAR &kp RBRC &kp RBKT 	&kp AT &kp EXCL &kp DQUOT &kp PLUS &kp FSLH
+			&kp LT &kp DLLR &kp LPAR &kp LBRC &kp LBKT  &kp EQUAL &kp QMARK &kp SQT &kp MINUS &kp ASTRK
+			&kp GT &kp PRCNT &kp RPAR &kp RBRC &kp RBKT 	&kp AT &kp EXCL &kp DQT &kp PLUS &kp FSLH
 														&mo FNC  &mo SYM2       &trans &trans
 			>;
 		};
@@ -110,9 +110,9 @@
 		symbols_2_layer {
 			label = "Sym.2";
 			bindings = <
-			&kp CARET &kp UNDER &kp PND &kp EUR &kp HASH         &none &none &none &none &none 
-			&kp BKTK &kp TILDE &kp BSLH &kp PIPE &kp AND         &none &none &none &none &none
-			&none 			&none 			 &kp SECT &kp CCED &kp DEG				  &none &none &none &none &none
+			&kp CARET &kp UNDER &kp IT_PND &kp IT_EUR &kp HASH         &none &none &none &none &none 
+			&kp GRAVE &kp TILDE &kp BSLH &kp PIPE &kp AMPS         &none &none &none &none &none
+			&none 			&none 			 &kp IT_SECT &kp IT_CCED &kp IT_DEG				  &none &none &none &none &none
 																	&none &none        	&none &none 
 			>;
 		};
