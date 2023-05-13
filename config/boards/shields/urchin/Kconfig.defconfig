@@ -9,6 +9,12 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
+config BT_SMP_SC_PAIR_ONLY
+    default n
+
+config BT_SMP_SC_ONLY
+    default n
+
 endif
 
 if SHIELD_URCHIN_LEFT || SHIELD_URCHIN_RIGHT
