@@ -2,7 +2,7 @@ manifest:
   remotes:
       # zmk official
     - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+      url-base: https://github.com/irizwaririz
       # bravekarma
     - name: caksoylar
       url-base: https://github.com/caksoylar
