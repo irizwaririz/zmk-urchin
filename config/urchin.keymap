@@ -33,6 +33,7 @@
             timeout-ms = <200>;
             key-positions = <31 33>;
             bindings = <&mo SYM2>;
+            layers = <0>;
         };
 
         // both right thumb keys
@@ -47,6 +48,7 @@
             timeout-ms = <200>;
             key-positions = <30 31>;
             bindings = <&mo SETTINGS>;
+            layers = <0>;
         };
     };
 
